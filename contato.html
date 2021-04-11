@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contato- Saltos Altos</title>
+    <!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <link href="css/estilos.css" rel="stylesheet">
+    <link href="./favicon//favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+
+<body id="bd-home">
+
+    <div id="site">
+        <header id="cabecalho" class="grupo">
+            <a href="index.html" id="logo">
+                <img src="imagens/highHills" alt="Logomarca da Empresa">
+            </a>
+            <nav id="menu-principal">
+                <ul class="grupo">
+                    <li>
+                        <a class="ativo" href="index.html">Principal</a>
+                    </li>
+                    <li>
+                        <a href="curiosidade.html">Curiosidades</a>
+                    </li>
+                    <li>
+                        <a href="servicos.html">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div id="foto-principal"></div>
+        <div id="conteudo" class="grupo">
+            <div id="conteudo-principal">
+                <h1>Contato</h1>
+                <p>
+                    Entre em contato conosco preenchendo o formulário abaixo:
+                </p>
+                <form action="#" method="post">
+                    <fieldset>
+                        <fieldset class="grupo">
+                            <div class="campo">
+                                <label for="nome">Nome <abbr title="preenchimento
+                        obrigatório">*</abbr></label>
+                                <input type="text" name="nome" id="nome" maxlength="100">
+                            </div>
+                            <div class="campo">
+                                <label for="empresa">Empresa</label>
+                                <input type="text" name="empresa" id="empresa" maxlength="100">
+                            </div>
+                        </fieldset>
+                        <div class="campo">
+                            <label for="email">E-mail <abbr title="preenchimento
+                        obrigatório">*</abbr></label>
+                            <input type="text" name="email" id="email" maxlength="100">
+                        </div>
+                        <fieldset class="grupo">
+                            <div class="campo">
+                                <label for="telefone">Telefone <abbr title="preenchimento
+                        obrigatório">*</abbr></label>
+                                <input type="text" name="telefone" id="telefone" maxlength="20">
+                            </div>
+                            <div class="campo">
+                                <label>Departamento</label>
+                                <label class="checkbox">
+                                    <input type="radio" name="departamento"> Comercial
+                                </label>
+                                <label class="checkbox">
+                                    <input type="radio" name="departamento"> Financeiro
+                                </label>
+                                <label class="checkbox">
+                                    <input type="radio" name="departamento"> Suporte</label>
+                            </div>
+                        </fieldset>
+                        <div class="campo">
+                            <label for="assunto">Assunto <abbr title="preenchimento
+                            obrigatório">*</abbr></label>
+                            <select id="assunto" name="assunto">
+                                <option>-- Selecione --</option>
+                                <option>Orçamento</option>
+                                <option>Dúvidas</option>
+                                <option>Solicitações</option>
+                                <option>Reclamações</option>
+                                <option>Outro</option>
+                            </select>
+                        </div>
+                        <div class="campo">
+                            <label for="mensagem">Mensagem <abbr title="preenchimento
+                            obrigatório">*</abbr></label>
+                            <textarea id="mensagem" name="mensagem"></textarea>
+            </div>
+            <div class="campo">
+                <label class="checkbox">
+                    <input type="checkbox" name="newsletter"> Gostaria de receber a
+                    Newsletter da Empresa
+                </label>
+            </div>
+            <input type="submit" name="submit" class="submit" value="Enviar Mensagem">
+            </fieldset>
+            </form>
+        </div>
+    </div>
+    <div id="rodape-fora">
+        <div id="rodape">
+            <p id="telefone-email">
+                contato@exemplo.com.br
+                <br>
+                <span class="ddd">11</span> 5555-5555
+            </p>
+            <p id="endereco">
+                Rua do Endereço, 123, Bairro
+                <br>
+                CEP 80000-000
+                <br>
+                São Paulo - SP
+            </p>
+            <small id="copyright">
+                &copy; Empresa Ltda. Todos os Direitos Reservados.
+            </small>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
